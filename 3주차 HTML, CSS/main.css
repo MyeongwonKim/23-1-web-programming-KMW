@@ -1,0 +1,82 @@
+html {
+    font-size: 16px;
+  }
+  
+  html {
+    background-color: #9f007d;
+  }
+  
+  body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #9f0020;
+    text-shadow: 3px 3px 1px black;
+  }
+
+  h1 {
+    text-shadow: 1px 1px 1px gray; /* 그림자 효과를 추가합니다. */
+    transition: all 0.2s ease-in-out; /* 전환 효과를 설정합니다. */
+  }
+  
+  h1:hover {
+    transform: translate3d(5px, 5px, 0); /* 3D 이동 효과를 적용합니다. */
+    /* 필요에 따라 다른 스타일을 추가로 설정합니다. */
+  }
+  
+  
+  p, li {
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+  
+  p.bold {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  #warning {
+    text-decoration: underline;
+  }
+  
+  table {
+    margin-left: 20px;
+  }
+  
+  th {
+    background-color: lightgray;
+    padding: 10px;
+    border: 1px double yellow;
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 7px 7px 1px black;
+    opacity: 0.5;
+  }
+  
+  a:hover {
+    color: #c00;
+  }
+
+  button {
+    background-color: red; /* 적용할 색상 값을 설정합니다. */
+    color: white; /* 버튼의 텍스트 색상을 설정합니다. */
+    /* 필요한 다른 스타일을 추가로 설정합니다. */
+  }
+  
