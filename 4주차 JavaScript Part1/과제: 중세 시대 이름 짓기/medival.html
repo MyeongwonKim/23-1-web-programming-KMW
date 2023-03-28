@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>중세 시대 이름 생성기</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>중세 시대 이름 생성기</h1>
+    <div class="container">
+      <form>
+        <div>
+          <label for="location">사는 지역: </label>
+          <input type="text" id="location" name="location" />
+        </div>
+        <div>
+          <label for="gender">성별: </label>
+          <select id="gender" name="gender">
+            <option value="male">남성</option>
+            <option value="female">여성</option>
+          </select>
+        </div>
+        <div>
+          <label for="age">나이: </label>
+          <input type="number" id="age" name="age" />
+        </div>
+        <div>
+          <label for="name">이름: </label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <button type="button" id="generate-btn">생성하기</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
